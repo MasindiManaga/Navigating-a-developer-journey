@@ -1,9 +1,11 @@
 h1 {
     color: gray;
+    position: relative;
+    right: 0;
 }
 
 h2 {
-    color: #E3E3E3;
+    color: #99979E;
 }
 
 #first{
@@ -21,6 +23,7 @@ h2 {
 #second{
     color: #E3E3E3;
     background-color: #fff;
+    border: none;
 }
 
 #second:hover{
