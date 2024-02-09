@@ -1,7 +1,19 @@
 h1 {
-    color: purple;
+    color: gray;
 }
 
 h2 {
-    color: blueviolet;
+    color: grey;
+}
+
+#text{
+    color: #fff;
+    background-color: grey;
+    transition: all 200ms ease-in-out;
+    border-radius: 1pt solid;
+}
+
+#text :hover {
+    color: grey;
+    background-color: #fff;
 }
