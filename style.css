@@ -3,17 +3,27 @@ h1 {
 }
 
 h2 {
-    color: grey;
+    color: #E3E3E3;
 }
 
-#text{
+#first{
     color: #fff;
-    background-color: grey;
+    background-color: #E3E3E3;
     transition: all 200ms ease-in-out;
-    border-radius: 1pt solid;
+    border: none;
 }
 
-#text :hover {
-    color: grey;
+#first:hover {
+    color:#E3E3E3;
     background-color: #fff;
+}
+
+#second{
+    color: #E3E3E3;
+    background-color: #fff;
+}
+
+#second:hover{
+    color: #fff;
+    background-color: #E3E3E3;
 }
